@@ -24,5 +24,10 @@
     },
     "autoload": {
         "psr-0": { "Mandango\\Mondator\\": "src/" }
-    }
+    },
+    "extra" : {
+		"branch-alias" : {
+			"dev-master" : "2.x-dev"
+		}
+	}
 }
