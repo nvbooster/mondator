@@ -266,7 +266,7 @@ class Mondator
                 $dir    = $output->getDir();
 
 
-                $file = $dir.DIRECTORY_SEPARATOR.str_replace('\\', '/', $definition->getClass()).'.php';
+                $file = $dir.DIRECTORY_SEPARATOR.$definition->getPath();
                 $path = dirname($file);
 
                 if (!file_exists($path) && false === @mkdir($path, 0777, true)) {
