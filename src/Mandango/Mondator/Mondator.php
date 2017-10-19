@@ -113,7 +113,7 @@ class Mondator
     /**
      * Add a extension.
      *
-     * @param Mandango\Mondator\Extension $extension The extension.
+     * @param Extension $extension The extension.
      *
      * @api
      */
