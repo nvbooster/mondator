@@ -1,33 +1,34 @@
 {
-    "name": "mongator/mondator",
-    "description": "Easy and flexible class generator for PHP",
-    "keywords": ["class-generator"],
-    "type": "library",
-    "license": "MIT",
-    "authors": [
-        {
-            "name":  "Máximo Cuadros",
-            "email": "maximo@yunait.com"
-        },
-        {
-            "name":  "Pablo Díez",
-            "email": "pablodip@gmail.com"
-        },
-        {
-            "name":  "Ádám Bálint",
-            "email": "adam.balint@srg.hu"
-        }
-    ],
-    "require": {
-        "php":       "^7",
-        "twig/twig": "^2.1"
-    },
-    "autoload": {
-        "psr-0": { "Mandango\\Mondator\\": "src/" }
-    },
-    "extra" : {
+	"name" : "mongator/mondator",
+	"description" : "Easy and flexible class generator for PHP",
+	"keywords" : [
+		"class-generator"
+	],
+	"type" : "library",
+	"license" : "MIT",
+	"authors" : [{
+			"name" : "Máximo Cuadros",
+			"email" : "maximo@yunait.com"
+		}, {
+			"name" : "Pablo Díez",
+			"email" : "pablodip@gmail.com"
+		}, {
+			"name" : "Ádám Bálint",
+			"email" : "adam.balint@srg.hu"
+		}
+	],
+	"require" : {
+		"php" : "^7",
+		"twig/twig" : "^2.1"
+	},
+	"autoload" : {
+		"psr-0" : {
+			"Mandango\\Mondator\\" : "src/"
+		}
+	},
+	"extra" : {
 		"branch-alias" : {
-			"dev-master" : "2.x-dev"
+			"dev-master" : "2.1.x-dev"
 		}
 	}
 }
